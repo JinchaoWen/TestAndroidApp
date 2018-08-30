@@ -20,7 +20,13 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText("哈哈哈哈~我变了！");
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        textView.setText("哈哈哈哈~我变了！");
+                    }
+                }).start();
+//                textView.setText("哈哈哈哈~我变了！");
             }
         });
     }

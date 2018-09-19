@@ -19,5 +19,19 @@
         android:layout_below="@id/tv"
         android:layout_marginTop="30dp"
         android:text="改变文字"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:textAllCaps="false"
+        android:text="bindService"/>
+    <Button
+    android:id="@+id/button3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/button2"
+    android:text="unbindService"/>
+
 
 </RelativeLayout>

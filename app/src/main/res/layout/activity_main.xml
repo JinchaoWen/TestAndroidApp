@@ -27,11 +27,12 @@
         android:textAllCaps="false"
         android:text="bindService"/>
     <Button
-    android:id="@+id/button3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/button2"
-    android:text="unbindService"/>
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:text="unbindService"
+        android:textAllCaps="false"/>
 
 
 </RelativeLayout>

@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class MyService extends Service {
 
-    private final String TAG = getPackageName();
+    private final String TAG = MyService.class.getSimpleName();
 
     private DownloadBinder mBinder = new DownloadBinder();
     public MyService() {
